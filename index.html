@@ -50,7 +50,8 @@ description: Home Page for Jekyll Metro Theme
 					<div class="tile green bord">
 						<h3 class="title">Recent Article</h3>
 						<h4 class="title">{{ post.title }}</h4>
-						<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
+						<p>Published On {{ page.date | date: "%A, %B %d, %Y" }}</p>
+						<!-- <p> {{ post.content | strip_html | truncatewords: 10 }}</p> -->
 					</div>
 				</a>
 				{% endfor %}
@@ -62,7 +63,8 @@ description: Home Page for Jekyll Metro Theme
 					<div class="tile red bord">
 						<h3 class="title">Latest Article</h3>
 						<h4 class="title">{{ post.title }}</h4>
-						<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
+						<p>Published On {{ page.date | date: "%A, %B %d, %Y" }}</p>
+						<!-- <p> {{ post.content | strip_html | truncatewords: 10 }}</p> -->
 					</div>
 				</a>
 				{% endfor %}
@@ -75,7 +77,8 @@ description: Home Page for Jekyll Metro Theme
 						<div class="tile orange bord">
 							<h3 class="title">Featured Article</h3>
 							<h4 class="title">{{ post.title }}</h4>
-							<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
+							<p>{{ post.date | date: "%A, %B %d, %Y" }}
+							<!-- <p> {{ post.content | strip_html | truncatewords: 10 }}</p> -->
 						</div>
 					</a>
 					{% break %}
