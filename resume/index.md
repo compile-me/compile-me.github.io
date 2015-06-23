@@ -1,91 +1,130 @@
 ---
 layout: page
 title: Resume
-description: Resume of Abdel Raoof
+description: Resume of He Tao
 theme: red
 ---
-Six years of experience in software development on Microsoft and Java technologies. Experienced in design and development of enterprise web applications, content management systems and enterprise application integration.
 
-**Experience in Web Technology:**
-Building and Supporting web applications using Microsoft Technologies (ASP.Net & ASP.Net MVC). Developing UI using Ext JS and jQuery.
+A student studying in School of Computer Science and Engineer, BUAA. Having two years experience in software development and algorithm design. 
 
-**Experience in Enterprise Content Management:**
-Implemented custom applications for content and knowledge management. Have also worked with leading industry ECM applications like SharePoint 2013, MOSS 2007, SharePoint 2010 and Documentum.
+**Experience in Operating System Technology: ** 
+Skilled in linux system programming. Implementing and unix-like Microkernel with MIPS R3000 architecture, include boot, process, physical memory manage, virtual memory manage, exception and interrupt, ext2 file system and a simple shell.
 
-<!-- Skills -->
+**Experience in Programing Language: **
+Skilled in C/C++, C#, Java and Scala, Haskell, and JavaScript programming. Interested in Functional Programming and Programming Language Theory.
+
+**Experience in Algorithm: **
+Familiar with basic algorithm, such as search, greedy, dynamic programming, graph theory algorithm, network flow, and some other algorithms associated with math knowledge. Keeping solving problems in [Project Euler](https://projecteuler.net), and exercising algorithm on HihoCoder, SGU and LeetCode OJ.
+
+**Experience in Web Application Development: ** 
+Building and Supporting an applications using Django framework. Developing UI using BootStrap and jQuery.
+
+<!-- Skills and Interesting-->
 <section class="row">
-	<header class="col-md-3">
-		<h3 style="text-transform:uppercase;color:gray">Skills</h3>
+	<header class="col-md-2">
+		<h3 style="text-transform:uppercase;color:gray">Skills and Interesting</h3>
 	</header>
 	<div class="col-md-9">
 		<div class="row">
 			<div class="col-md-6">
 				<ul class="list-group">
 					<li class="list-group-item active"><h4><strong>Programming</strong></h4></li>
+					<li class="list-group-item">C/C++</li>
 					<li class="list-group-item">C#</li>
-					<li class="list-group-item">ASP.Net / ASP.Net MVC</li>
-					<li class="list-group-item">Javascript</li>
-					<li class="list-group-item">HTML & CSS</li>
+					<li class="list-group-item">Java and Scala</li>
+					<li class="list-group-item">Haskell</li>
+					<li class="list-group-item">JavaScript and Node.js</li>
+					<li class="list-group-item">Python(Web Development and Scientific Computation)</li>
 				</ul>
 			</div>
 			<div class="col-md-6">
 				<ul class="list-group">
 					<li class="list-group-item active"><h4><strong>Specialties</strong></h4></li>
-					<li class="list-group-item">.Net Web Technologies</li>
-					<li class="list-group-item">SharePoint 2013</li>
-					<li class="list-group-item">Sencha Ext Js</li>
+					<li class="list-group-item">.Net and CLR Technologies</li>
+					<li class="list-group-item">Operating System and System Programming</li>
+					<li class="list-group-item">Functional Programming and Programming Language Theory</li>
+					<li class="list-group-item">Compiler Technology and Implements</li>
+					<li class="list-group-item">Java Virtual Machine Technology</li>
+					<li class="list-group-item">Algorithm Design, Analysis and Implements</li>
+					<li class="list-group-item">Basic Machine Learning Algorithm and BigData Technology</li>
 				</ul>
 			</div>
 		</div>
 	</div>
 </section>
 <hr/>
+
 <!-- Education -->
 <section class="row">
-	<header class="col-md-3">
+	<header class="col-md-2">
 		<h3 style="text-transform:uppercase;color:gray">Education</h3>
 	</header>
 	<div class="col-md-9">
 		<ul>
 			<li>
-				<h4>Master of Computer Applications (MCA)</h4>
-				<p>2004-2007 - Vellore Institute of Technology</p>
-			</li>
-			<li>
-				<h4>Bachelor of Sscience - Computer Science</h4>
-				<p>2001-2004 - University of Calicut</p>
+				<h4>Study in the School of Computer Science and Engineer</h4>
+				<h5>Present</h5>
+				<p>Beihang University(BUAA)</p>
 			</li>
 		</ul>
 	</div>
 </section>
 <hr/>
-<!-- Work -->
+
+<!-- Work Experience -->
 <section class="row">
-	<header class="col-md-3">
+	<header class="col-md-2">
 		<h3 style="text-transform:uppercase;color:gray">Work Experience</h3>
 	</header>
 	<div class="col-md-9">
 		<ul>
 			<li>
-				<h4>C4 Advanced Solutions</h4>
-				<h5>Present</h5>
-				<p>Working as Application Developer</p>
-			</li>
-			<li>
-				<h4>Abdul Samad Al Qurashi</h4>
-				<h5>March 2010 - January 2013</h5>
-				<p>Worked as Web Developer</p>
-			</li>
-			<li>
-				<h4>Samsung SDS</h4>
-				<h5>May 2009 - March 2010</h5>
-				<p>Worked as Web Developer with MIS team</p>
-			</li>
-			<li>
-				<h4>Honeywell Technology Solutions</h4>
-				<h5>December 2006 - December 2008</h5>
+				<h4>Computer Teaching Experiment Center</h4>
+				<h5>December 2006 - December </h5>
 				<p>Worked as Project Trainee & later Software Engineer</p>
 			</li>
 		</ul>
 	</div>
 </section>
+
+<!-- Projects -->
+<!--
+<section class="row">
+	<header class="col-md-2">
+		<h3 style="text-transform:uppercase;color:gray">Projects</h3>
+	</header>
+	<div class="col-md-9">
+		<ul>
+			<li>
+			</li>
+		</ul>
+	</div>
+</section>
+-->
+
+<!-- Award -->
+<section class="row">
+	<header class="col-md-2">
+		<h3 style="text-transform:uppercase;color:gray">Award</h3>
+	</header>
+	<div class="col-md-9">
+		<ul>
+			<li>
+				<h4>Second Prize in the 6th National Professional Software Engineering "Lan Qiao Cup" Design Contest.</h4>
+				<h5>April 5th, 2015</h5>
+				<p>Final contest of the 6th National Professional Software Engineering "Lan Qiao Cup" Design Contest, Group A using C/C++ language.</p>
+			</li>
+			<li>
+				<h4>First Prize in the 2048 AI Programming Contest.</h4>
+				<h5>June 20th, 2014</h5>
+				<p>Design and implements an AI algorithm to play 2048 game.</p>
+			</li>
+			<li>
+				<h4>Third Prize in the 24th "Feng Ru Cup" Competition of Innovation</h4>
+				<h5>May 20th, 2014</h5>
+				<p>The 24th Beihang University "Feng Ru Cup" Student Academic Scientific and Technological Works Competition.</p>
+			</li>
+		</ul>
+	</div>
+</section>
+

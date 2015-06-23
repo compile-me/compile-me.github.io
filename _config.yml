@@ -19,18 +19,20 @@ baseurl:          ''
 
 # Navigation
 navigation:
-- text: Blog
-  url: /blog/
-- text: Archive
-  url : /archive/
-- text: Categories
-  url: /categories/
-- text: Tags
-  url: /tags/
-- text: Resume
-  url: /resume/
 - text: About
   url: /about/
+- text: Resume
+  url: /resume/
+- text: Blog
+  url: /blog/
+# - text: Projects
+#   url: /projects/
+- text: Archive
+  url : /archive/
+# - text: Categories
+#   url: /categories/
+- text: Tags
+  url: /tags/
 
 # Author Details
 author:         'Sighingnow'
@@ -39,7 +41,7 @@ author:         'Sighingnow'
 linkedin:       'https://www.linkedin.com/pub/%E6%B6%9B-%E4%BD%95/bb/868/732'
 twitter:        'https://twitter.com/sighingnow'
 github:         'https://github.com/sighingnow'
-gplus:          'https://plus.google.com/112661429129878562674/'
+gplus:          'https://plus.google.com/102570111351055130345/'
 
 # Google Analytics
 gahandler: '' # 'UA-52149651-1'
@@ -58,9 +60,9 @@ footer-links:
   linkedin: pub/%E6%B6%9B-%E4%BD%95/bb/868/732
   pinterest: sighingnow
   rss: /feed.xml # just type anything here for a working RSS icon, make sure you set the "url" above!
-  google: 112661429129878562674
+  google: 102570111351055130345
   twitter: sighingnow
-  stackoverflow: #users/4388898/peter-zhu # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow: users/3767761/he-tao #users/4388898/peter-zhu # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
 # Disqus
 disqushandler: 'testingblogo'
