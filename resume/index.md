@@ -7,16 +7,16 @@ theme: red
 
 A student studying in School of Computer Science and Engineer, BUAA. Having two years experience in software development and algorithm design. 
 
-**Experience in Operating System Technology: ** 
+** Experience in Operating System Technology: ** 
 Skilled in linux system programming. Implementing and unix-like Microkernel with MIPS R3000 architecture, include boot, process, physical memory manage, virtual memory manage, exception and interrupt, ext2 file system and a simple shell.
 
-**Experience in Programing Language: **
+** Experience in Programing Language: **
 Skilled in C/C++, C#, Java and Scala, Haskell, and JavaScript programming. Interested in Functional Programming and Programming Language Theory.
 
-**Experience in Algorithm: **
+** Experience in Algorithm: **
 Familiar with basic algorithm, such as search, greedy, dynamic programming, graph theory algorithm, network flow, and some other algorithms associated with math knowledge. Keeping solving problems in [Project Euler](https://projecteuler.net), and exercising algorithm on HihoCoder, SGU and LeetCode OJ.
 
-**Experience in Web Application Development: ** 
+** Experience in Web Application Development: ** 
 Building and Supporting an applications using Django framework. Developing UI using BootStrap and jQuery.
 
 <!-- Skills and Interesting-->

@@ -17,7 +17,8 @@ This is a static site hosted at [Github Pages](https://pages.github.com) and ren
 
 For short messages and quick replies, you can contact me via [Twitter](http://twitter.com/sighingnow). For anything longer feel free to use the comments section below and I'll reply you by email.
 
-<br/><br/><h3>Comments:</h3>
+### Comments:
+
 <div id="disqus_thread"></div>
 <script type="text/javascript">
   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
