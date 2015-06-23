@@ -11,33 +11,34 @@ permalink:        none
 excerpt_separator: "<!--more-->"
 
 # Setup
-title:            'Jekyll Metro'
-tagline:          'A Metro theme for Jekyll'
-description:      'A Sample blog using Jekyll Metro'
+title:            'Sighingnow'
+tagline:          "Sighingnow's blog" 
+description:      "Sighingnow's homepage using Jekyll Metro"
 url:              'http://compile-me.github.io'
 baseurl:          ''
 
 # Navigation
 navigation:
-- text: About
-  url: /about/
-- text: Resume
-  url: /resume/
 - text: Blog
   url: /blog/
-- text: Tags
-  url: /tags/
 - text: Archive
   url : /archive/
-
+- text: Categories
+  url: /categories/
+- text: Tags
+  url: /tags/
+- text: Resume
+  url: /resume/
+- text: About
+  url: /about/
 
 # Author Details
-author:         'Abdel Raoof Olakara'
+author:         'Sighingnow'
 
 #Social Media links
 linkedin:       'https://www.linkedin.com/pub/%E6%B6%9B-%E4%BD%95/bb/868/732'
-twitter:        'https://twitter.com/olakara'
-facebook:       'https://www.facebook.com/olakara'
+twitter:        'https://twitter.com/sighingnow'
+github:         'https://github.com/sighingnow'
 gplus:          'https://plus.google.com/112661429129878562674/'
 
 # Google Analytics
@@ -55,10 +56,10 @@ footer-links:
   github: sighingnow
   instagram:
   linkedin: pub/%E6%B6%9B-%E4%BD%95/bb/868/732
-  pinterest:
+  pinterest: sighingnow
   rss: /feed.xml # just type anything here for a working RSS icon, make sure you set the "url" above!
   google: 112661429129878562674
-  twitter: 
+  twitter: sighingnow
   stackoverflow: #users/4388898/peter-zhu # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
 # Disqus

@@ -22,7 +22,14 @@ description: Home Page for Jekyll Metro Theme
 				</a>
 		    </div>
 			<div class="col-md-2 col-sm-3 col-xs-6">
-				<a href="resume/" title="Resume" class="tile red bord icon-resume"></a>
+				<div class="live-tile" data-mode="flip" data-delay="4000">
+					<div>
+						<a href="resume/" title="Resume" class="tile red bord icon-resume"></a>
+					</div>
+					<div>
+						<a href="resume/" title="Resume" class="tile red bord font-fix"><p>Resume</p></a>
+					</div>
+				</div>
 			</div>
 			<div class="col-md-2 col-sm-3 col-xs-6">
 				<div class="live-tile" data-mode="flip" data-delay="4000">
@@ -31,11 +38,12 @@ description: Home Page for Jekyll Metro Theme
 					</div>
 					<div>
 						<a href="blog/" title="Blog" class="tile orange bord font-fix">
-						<p>Blog Section:</p>
-							<ol>
-								<li>Posts</li>
-								<li>News</li>
-							</ol>
+						<p>Blog: </p>
+							<ul>
+								<li>Technology</li>
+								<li>Programming</li>
+								<li>Math</li>
+							</ul>
 						</a>
 					</div>
 				</div>
@@ -69,8 +77,7 @@ description: Home Page for Jekyll Metro Theme
 				</a>
 				{% endfor %}
 			</div>
-
-			<div class="col-md-4 col-sm-6 col-xs-12">
+			<!-- <div class="col-md-4 col-sm-6 col-xs-12">
 				{% for post in site.posts %}
 					{% if post.featured == true %}
 					<a href="{{post.url}}">
@@ -78,13 +85,13 @@ description: Home Page for Jekyll Metro Theme
 							<h3 class="title">Featured Article</h3>
 							<h4 class="title">{{ post.title }}</h4>
 							<p>{{ post.date | date: "%A, %B %d, %Y" }}
-							<!-- <p> {{ post.content | strip_html | truncatewords: 10 }}</p> -->
+							<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
 						</div>
 					</a>
 					{% break %}
 					{% endif %}
 				{% endfor %}
-			</div>
+			</div> -->
 		</div>
 
 		<div class="row" style="margin-bottom:25px">
@@ -94,7 +101,7 @@ description: Home Page for Jekyll Metro Theme
 			</div>
 
 			<div class="col-md-2 col-sm-3 col-xs-6 flip-back ha" style="transform: rotateX(360deg); transition: all 500ms ease 0s;">
-				<a class="tile blue bord tw-ico" href="https://twitter.com/olakara"></a>
+				<a class="tile blue bord font-fix" href="{{site.linkedin}}">Linkedin</a>
 			</div>
 		</div>
 
@@ -103,7 +110,7 @@ description: Home Page for Jekyll Metro Theme
 			</div>
 
 			<div class="col-md-2 col-sm-3 col-xs-6">
-				<a href="{{site.facebook}}" class="tile blue bord fk-ico"></a>
+				<a href="{{site.github}}" class="tile blue bord gh-ico"></a>
 			</div>
 
 			<div class="col-md-2 col-sm-3 col-xs-6">
@@ -126,7 +133,7 @@ description: Home Page for Jekyll Metro Theme
 				</div>
 				<div class="row">
 					<div  class="col-md-6 col-sm-6 col-xs-6 rep-1">
-						<a href="{{site.facebook}}" class="mtile purple bord fk-ico-sm"></a>
+						<a href="{{site.github}}" class="mtile purple bord gh-ico-sm"></a>
 					</div>
 					<div  class="col-md-6 col-sm-6 col-xs-6 rep-2">
 						<a href="{{site.gplus}}" class="mtile orange bord gl-ico-sm"></a>
