@@ -7,16 +7,16 @@ theme: red
 
 A student studying in School of Computer Science and Engineer, BUAA. Having two years experience in software development and algorithm design. 
 
-** Experience in Operating System Technology: ** 
+**Experience in Operating System Technology:** 
 Skilled in linux system programming. Implementing and unix-like Microkernel with MIPS R3000 architecture, include boot, process, physical memory manage, virtual memory manage, exception and interrupt, ext2 file system and a simple shell.
 
-** Experience in Programing Language: **
+**Experience in Programing Language:**
 Skilled in C/C++, C#, Java and Scala, Haskell, and JavaScript programming. Interested in Functional Programming and Programming Language Theory.
 
-** Experience in Algorithm: **
+**Experience in Algorithm:**
 Familiar with basic algorithm, such as search, greedy, dynamic programming, graph theory algorithm, network flow, and some other algorithms associated with math knowledge. Keeping solving problems in [Project Euler](https://projecteuler.net), and exercising algorithm on HihoCoder, SGU and LeetCode OJ.
 
-** Experience in Web Application Development: ** 
+**Experience in Web Application Development:** 
 Building and Supporting an applications using Django framework. Developing UI using BootStrap and jQuery.
 
 <!-- Skills and Interesting-->
@@ -25,31 +25,25 @@ Building and Supporting an applications using Django framework. Developing UI us
 		<h3 style="text-transform:uppercase;color:gray">Skills and Interesting</h3>
 	</header>
 	<div class="col-md-9">
-		<div class="row">
-			<div class="col-md-6">
-				<ul class="list-group">
-					<li class="list-group-item active"><h4><strong>Programming</strong></h4></li>
-					<li class="list-group-item">C/C++</li>
-					<li class="list-group-item">C#</li>
-					<li class="list-group-item">Java and Scala</li>
-					<li class="list-group-item">Haskell</li>
-					<li class="list-group-item">JavaScript and Node.js</li>
-					<li class="list-group-item">Python(Web Development and Scientific Computation)</li>
-				</ul>
-			</div>
-			<div class="col-md-6">
-				<ul class="list-group">
-					<li class="list-group-item active"><h4><strong>Specialties</strong></h4></li>
-					<li class="list-group-item">.Net and CLR Technologies</li>
-					<li class="list-group-item">Operating System and System Programming</li>
-					<li class="list-group-item">Functional Programming and Programming Language Theory</li>
-					<li class="list-group-item">Compiler Technology and Implements</li>
-					<li class="list-group-item">Java Virtual Machine Technology</li>
-					<li class="list-group-item">Algorithm Design, Analysis and Implements</li>
-					<li class="list-group-item">Basic Machine Learning Algorithm and BigData Technology</li>
-				</ul>
-			</div>
-		</div>
+		<ul class="list-group">
+			<h3><strong>Programming</strong></h3>
+			<li class="list-group-item">C/C++</li>
+			<li class="list-group-item">C#</li>
+			<li class="list-group-item">Java and Scala</li>
+			<li class="list-group-item">Haskell</li>
+			<li class="list-group-item">JavaScript and Node.js</li>
+			<li class="list-group-item">Python(Web Development and Scientific Computation)</li>
+		</ul>
+		<ul class="list-group">
+			<h3><strong>Specialties</strong></h3>
+			<li class="list-group-item">.Net and CLR Technologies</li>
+			<li class="list-group-item">Operating System and System Programming</li>
+			<li class="list-group-item">Functional Programming and Programming Language Theory</li>
+			<li class="list-group-item">Compiler Technology and Implements</li>
+			<li class="list-group-item">Java Virtual Machine Technology</li>
+			<li class="list-group-item">Algorithm Design, Analysis and Implements</li>
+			<li class="list-group-item">Basic Machine Learning Algorithm and BigData Technology</li>
+		</ul>
 	</div>
 </section>
 <hr/>
