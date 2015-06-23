@@ -175,10 +175,13 @@ optgroup {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  border: solid 2px;
+  font-family: Monaco, Consolas, monospace;
 }
 td,
 th {
   padding: 0;
+  border: solid 1px;
 }
 @media print {
   * {
