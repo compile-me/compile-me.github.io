@@ -1,8 +1,7 @@
 # Configurations
 markdown:         redcarpet
 redcarpet:
-  extensions:
-    - smart
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 highlighter: pygments
 
@@ -36,13 +35,13 @@ navigation:
 author:         'Abdel Raoof Olakara'
 
 #Social Media links
-linkedin:       'https://ae.linkedin.com/in/olakara/'
+linkedin:       'https://www.linkedin.com/pub/%E6%B6%9B-%E4%BD%95/bb/868/732'
 twitter:        'https://twitter.com/olakara'
 facebook:       'https://www.facebook.com/olakara'
-gplus:          'https://plus.google.com/100425464897246255887/'
+gplus:          'https://plus.google.com/112661429129878562674/'
 
 # Google Analytics
-gahandler: 'UA-52149651-1'
+gahandler: '' # 'UA-52149651-1'
 
 #if footer-links-visible is 'true' the svg-icons will be shown top on the copy right.
 #else the svg icons will not exist
@@ -50,16 +49,16 @@ footersvg: 'true'
 
 footer-links:
   dribbble:
-  email: None
+  email: sighingnow@gmail.com
   facebook:
   flickr:
-  github:
+  github: sighingnow
   instagram:
-  linkedin:
+  linkedin: pub/%E6%B6%9B-%E4%BD%95/bb/868/732
   pinterest:
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  google: None
-  twitter: None
+  rss: /feed.xml # just type anything here for a working RSS icon, make sure you set the "url" above!
+  google: 112661429129878562674
+  twitter: 
   stackoverflow: #users/4388898/peter-zhu # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
 # Disqus
