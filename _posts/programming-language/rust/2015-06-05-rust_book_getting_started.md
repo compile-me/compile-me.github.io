@@ -27,6 +27,8 @@ fn main() {
 
 > This is calling a Rust macro, which is how metaprogramming is done in Rust.
 
+<!--more-->
+
 3. Cargo
 --------
 

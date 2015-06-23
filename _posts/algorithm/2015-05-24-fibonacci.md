@@ -53,6 +53,8 @@ layout: post
 
     25
 
+<!--more-->
+
 Fibonacci数列
 -------------
 

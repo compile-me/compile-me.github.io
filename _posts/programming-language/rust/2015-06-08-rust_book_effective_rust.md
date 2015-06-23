@@ -25,6 +25,8 @@ fn main() {
 
 Rust使用[jemalloc][1]来进行内存分配，
 
+<!--more-->
+
 Testing
 --------
 

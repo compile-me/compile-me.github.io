@@ -30,6 +30,8 @@ Scala开发环境配置相关的几点经验：
         -Dsbt.ivy.home=d:/Java/sbt/
         -Dsbt.boot.directory=d:/Java/sbt/boot/
 
+<!--more-->
+
 Week 1: Functions & Evaluations
 -------------------------------
 

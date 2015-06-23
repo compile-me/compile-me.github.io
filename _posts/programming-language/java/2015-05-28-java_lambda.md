@@ -23,6 +23,8 @@ Java 8引入了lambda表达式，可以用来完成很多函数式编程的目�
 
     (int even, int odd) -> even + odd
 
+<!--more-->
+
 Functional Interface
 --------------------
 

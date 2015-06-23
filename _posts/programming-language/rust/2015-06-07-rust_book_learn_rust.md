@@ -22,6 +22,8 @@ Our program will generate a random integer between one and a hundred. It will th
 
 项目目录结构(`cargo build`之后)：
 
+<!--more-->
+
 ```
 │  .gitignore
 │  a.txt
